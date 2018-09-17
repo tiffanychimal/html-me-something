@@ -1,0 +1,59 @@
+body {
+    width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #F7F1E5;
+    font-size: 62.5%;
+    color: #3AB54A;
+}
+
+header,
+main,
+footer {
+	background-color: #F7F1E5;
+    font-size: 1.6em;
+    color: #3AB54A;
+}
+
+header {
+	padding: 1.875em 0;
+}
+
+header h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.greeting {
+    color: blue;
+}
+
+header p {
+    align-text: left;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+article {
+	padding: 20px 0px;
+}
+
+article:first-child {
+    padding: 0px;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+#logo img {
+    width: 500px;
+}
+
+footer p {
+	display: inline-block;
+}
